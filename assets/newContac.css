@@ -8,7 +8,7 @@ body{
 
 form{
     padding: 50px 55px;
-    box-shadow: 0 0 20px red;
+    box-shadow: 0 0 20px aqua;
     border-radius: 20px;
     text-align: center;
     width: 340px;
@@ -21,12 +21,54 @@ form{
 }
 
 h2{
-    color: blue;
+    color: black;
     font-size: 35px;
 }
 
 label{
-    color: blue;
+    color: black;
     font-size: 15px;
     font-weight: 600;
 }
+input {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;  
+    background-color: aqua;
+    border: 2px solid black;
+    color: black;
+    outline: none;
+}
+
+input::placeholder{
+    color:cadetblue;
+}
+.form-list{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-list a{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 25px;
+    color: black ;
+    border: 0;
+    border-radius: 25px;
+    background-color: aqua;
+    box-shadow: 0 0 20px black;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+
